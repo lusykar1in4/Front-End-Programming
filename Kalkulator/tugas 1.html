@@ -1,0 +1,31 @@
+<html>
+
+<head></head>
+<script language="JavaScript">
+function test() {
+    var val1=document.kirim.T1.value
+    if(val1>=0 && 40)
+        document.kirim.T2.value="E"
+    if(val1>=41 && 55)
+        document.kirim.T2.value="D"
+    if(val1>=56 && 70)
+        document.kirim.T2.value="C"
+    if(val1>=71 && 80)
+        document.kirim.T2.value="B"
+    if(val1>=81 && 100)
+        document.kirim.T2.value="A"
+    if(val1>=101)
+        document.kirim.T2.value="VALUE NOT VALID"
+}
+</script>
+
+<body>
+    <form method="POST" name="kirim">
+        <p>NILAI ANGKA <input type="text" name="T1" size="20">
+            NILAI HURUF <input type="text" name="T2" size="20">
+        </p>
+        <p><input type="button" value="RESULT" name="B1" onclick=test()>
+        </p>
+    </form>
+</body>
+</html>
