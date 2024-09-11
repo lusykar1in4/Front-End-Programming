@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(184, 222, 212);
+}
+
+.container {
+    margin: auto;
+    background-color: rgb(217, 230, 237);
+    max-width:400px;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 140px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+}
