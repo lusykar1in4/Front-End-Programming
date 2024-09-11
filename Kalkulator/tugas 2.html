@@ -1,24 +1,31 @@
 <html>
-<head></head>
+<head>
+    <title>Kalkulator Sederhana</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type">
+    <link rel="stylesheet" href="style2.css">
+</head>
 
 <script src="script.js"></script>
 
 <body>
+    <div class="container">
     <h2>Kalkulator Sederhana</h2>
-    <form>
-        <label for="bil1">Bil 1:</label>
-        <input type="number" id="bil1" required><br><br>
+        <form>
+            <label for="bil1">Bil 1 :</label>
+            <input type="number" id="bil1" required><br><br>
 
-        <label for="bil2">Bil 2:</label>
-        <input type="number" id="bil2" required><br><br>
+            <label for="bil2">Bil 2 :</label>
+            <input type="number" id="bil2" required><br><br>
 
-        <label for="hasil">Hasil :</label>
-        <input type="text" id="hasil" readonly><br><br>
+            <label for="hasil">Hasil:</label>
+            <input type="text" id="hasil" readonly><br><br>
 
-        <button type="button" onclick="hitung('+')">+</button>
-        <button type="button" onclick="hitung('-')">-</button>
-        <button type="button" onclick="hitung('x')">x</button>
-        <button type="button" onclick="hitung('/')">/</button>
-    </form>
+            <button type="button" onclick="hitung('+')">+</button>
+            <button type="button" onclick="hitung('-')">-</button>
+            <button type="button" onclick="hitung('x')">x</button>
+            <button type="button" onclick="hitung('/')">/</button>
+        </form>
+    </div>
 </body>
 </html>
